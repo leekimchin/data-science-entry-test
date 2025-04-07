@@ -1,9 +1,10 @@
 def find_and_replace(lst, find_val, replace_val):
     """
-    Task 1:
-    This function searches for all occurrences of `find_val` in the given list `lst`
-    and replaces them with `replace_val`.
-
+     Task 1
+    - Create a function that searches for all occurrences of a value (find_val) in a given list (lst) and replaces them with another value (replace_val).
+    - lst must be a list.
+    - Return the modified list.
+    
     Steps:
     1. Iterate through the list.
     2. Replace each occurrence of `find_val` with `replace_val`.
