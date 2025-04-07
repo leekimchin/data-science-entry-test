@@ -4,11 +4,6 @@ def check_divisibility(num, divisor):
     - Create a function to check if the number (num) is divisible by another number (divisor).
     - Both num and divisor must be numeric.
     - Return True if num is divisible by divisor, False otherwise.
-
-    Steps:
-    1. Ensure both `num` and `divisor` are numeric (int or float).
-    2. Return True if `num` is divisible by `divisor` (i.e., num % divisor == 0).
-    3. Return False if not divisible or input is invalid.
     """
 
     # Check if both inputs are numeric
