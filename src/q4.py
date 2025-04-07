@@ -4,12 +4,6 @@ def string_reverse(s):
     - Create a function that reverses a given string (s).
     - s must be a string.
     - Return the reversed string.
-
-    Steps:
-    1. Check if `s` is a string.
-       - If not, return an empty string.
-    2. Reverse the string using slicing.
-    3. Return the reversed string.
     """
 
     # Check if the input is a string
