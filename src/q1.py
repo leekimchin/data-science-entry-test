@@ -6,6 +6,7 @@ def swap(x, y):
     - Return -1 if x and y is not numeric, and
     - print the swapped values if both x and y are numeric.
     """
+    
     if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
         return -1
     else:
