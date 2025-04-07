@@ -1,7 +1,9 @@
 def check_divisibility(num, divisor):
     """
-    Task 1:
-    This function checks if `num` is divisible by `divisor`.
+    Task 1
+    - Create a function to check if the number (num) is divisible by another number (divisor).
+    - Both num and divisor must be numeric.
+    - Return True if num is divisible by divisor, False otherwise.
 
     Steps:
     1. Ensure both `num` and `divisor` are numeric (int or float).
@@ -24,8 +26,8 @@ def check_divisibility(num, divisor):
 # Task 2
 # Scenario 1: Check if 10 is divisible by 2
 result1 = check_divisibility(10, 2)
-print(result1)  # Expected output: True (because 10 % 2 == 0)
+print(result1)
 
 # Scenario 2: Check if 7 is divisible by 3
 result2 = check_divisibility(7, 3)
-print(result2)  # Expected output: False (because 7 % 3 != 0)
+print(result2)
