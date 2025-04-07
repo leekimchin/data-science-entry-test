@@ -12,7 +12,11 @@ def find_and_replace(lst, find_val, replace_val):
     return modified_list
 
 
-# Task 2:
+# Task 2
+# Invoke the function "find_and_replace" using the following scenarios:
+# - [1, 2, 3, 4, 2, 2], 2, 5
+# - ["apple", "banana", "apple"], "apple", "orange"
+
 # Scenario 1: Replace all 2s with 5 in the list [1, 2, 3, 4, 2, 2]
 result1 = find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
 print(result1)
