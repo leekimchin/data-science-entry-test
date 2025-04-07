@@ -17,8 +17,11 @@ def check_divisibility(num, divisor):
     # Check divisibility using modulus operator
     return num % divisor == 0
 
-
 # Task 2
+# Invoke the function "check_divisibility" using the following scenarios:
+# - 10, 2
+# - 7, 3
+
 # Scenario 1: Check if 10 is divisible by 2
 result1 = check_divisibility(10, 2)
 print(result1)
