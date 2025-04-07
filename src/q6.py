@@ -5,6 +5,7 @@ def find_first_negative(lst):
     - Return the first negative number if found, otherwise return "No negatives".
     - Use a while loop to implement this.
     """
+    
     # Initialize index for while loop
     i = 0
 
