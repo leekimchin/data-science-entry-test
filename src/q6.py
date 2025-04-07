@@ -4,11 +4,6 @@ def find_first_negative(lst):
     - Create a function that finds the first negative number in a list (lst).
     - Return the first negative number if found, otherwise return "No negatives".
     - Use a while loop to implement this.
-
-    Steps:
-    1. Use a while loop to iterate through the list.
-    2. If a negative number is found, return it immediately.
-    3. If the loop completes without finding any, return "No negatives".
     """
     # Initialize index for while loop
     i = 0
