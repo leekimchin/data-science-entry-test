@@ -20,6 +20,7 @@ class Car:
 # Task 2:
 # Create an instance of Car with:
 # - Make: Toyota, Model: Corolla, Year: 2020
+
 car1 = Car("Toyota", "Corolla", 2020)
 
 # Call the describe_car method to print the car details
