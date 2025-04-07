@@ -19,8 +19,12 @@ def find_first_negative(lst):
     # If loop completes with no negative found
     return "No negatives"
 
-
 # Task 2
+# Invoke the function "find_first_negative" using the following scenario:
+# - [3, 5, -1, 7, -2, 8]
+# - [2, 10, 7, 0]
+
+
 # Scenario 1: List with negatives: [3, 5, -1, 7, -2, 8]
 result1 = find_first_negative([3, 5, -1, 7, -2, 8])
 print(result1)
