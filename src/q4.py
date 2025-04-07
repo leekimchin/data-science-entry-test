@@ -16,8 +16,12 @@ def string_reverse(s):
     # Return the reversed string
     return reversed_s
 
-
 # Task 2
+# Invoke the function "string_reverse" using the following scenarios:
+# - "Hello World"
+# - "Python"
+
+
 # Scenario 1: Reverse "Hello World"
 result1 = string_reverse("Hello World")
 print(result1)
