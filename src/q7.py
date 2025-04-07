@@ -1,10 +1,9 @@
 class Car:
     """
-    Task 1:
-    Define a class named Car with the following features:
-    - Attributes: make, model, year
-    - Constructor (__init__) to initialize these attributes
-    - Method describe_car() to print the car information as "Year Make Model"
+    Task 1
+    - Define a class named Car with attributes: make, model, year
+    - Initialize these attributes in the __init__ method
+    - Add a method named describe_car() that prints information about the car as "Year Make Model"
     """
 
     def __init__(self, make, model, year):
@@ -24,4 +23,4 @@ class Car:
 car1 = Car("Toyota", "Corolla", 2020)
 
 # Call the describe_car method to print the car details
-car1.describe_car()  # Expected output: "2020 Toyota Corolla"
+car1.describe_car()
